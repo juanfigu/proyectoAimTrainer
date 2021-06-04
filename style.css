@@ -1,0 +1,76 @@
+.gameContainer {
+    position: absolute;
+    border: black 1px solid;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+}
+
+.targetDiv { 
+    position: absolute;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.easy .targetDiv {
+    width: 30px;
+    height: 30px;
+
+}
+
+.medium .targetDiv {
+    width: 20px;
+    height: 20px;
+}
+
+.hard .targetDiv {
+    width: 10px;
+    height: 10px;
+}
+
+.settingsPopup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: grey 1px solid;
+    padding: 30px;
+    border-radius: 11px;
+    box-shadow: black 0px 0px 20px -5px;
+}
+
+#timer{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#clicks{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#showScore{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+#scorePop{
+padding: 5px;
+margin: 5px;
+}
+
+#clickPop{
+    padding: 5px;
+    margin: 5px;
+    }
+
+#accuracyPop{
+    padding: 5px;
+    margin: 5px;
+    }
