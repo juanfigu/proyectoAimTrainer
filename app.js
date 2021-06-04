@@ -3,7 +3,7 @@ $(function () {
   let started = false;
   let timeInterval = 3000;
   let score = 0;
-  let gameTime = 600000;
+  let gameTime = 60000;
   let clicks = 0;
 
   
