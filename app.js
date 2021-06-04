@@ -56,8 +56,8 @@ $(function () {
     if (started) {
         gameTime -= 1000;
         $("#timer").html("Time: " + gameTime/1000);
-        $("#showScore").html("Score: " + score); // este me queda encimado al timer, why?
-        $("#clicks").html("Clicks: "  + clicks);
+        $("#showScore").html("Score: " + score); 
+        $("#clicks").html("Clicks: "  + clicks); // este me queda encimado al timer, why?
         if(gameTime <= 0){
             started = false;
             $(".targetDiv").remove();
