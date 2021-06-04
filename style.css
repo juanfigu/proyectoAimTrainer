@@ -51,8 +51,9 @@
 
 #clicks{
     position: absolute;
-    top: 800px;
-    left: 30px;
+    top: 10px;
+    left: 50%;
+    transform: translate(0,-50%);
 }
 
 #showScore{
